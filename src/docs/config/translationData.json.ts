@@ -52,15 +52,15 @@ export const dataTranslations = {
  */
 export const textTranslations = {
   en: {
-    hero_title: "Introducing Solstice",
-    hero_description: `A modern, fast, and feature-rich documentation theme built with Astro v5 and Tailwind CSS v4. This theme is the documentation for itself, explore and learn!`,
+    hero_title: "MootMoat V17",
+    hero_description: `Level 3 Sovereign Identity Conformance and Structural Rhyming implementation documentation.`,
     back_to_all_posts: "Back to all posts",
   },
   fr: {
-    hero_title: "Introducing Solstice",
+    hero_title: "MootMoat V17",
     hero_description:
-      "Je ne parle pas vraiment français donc j'utilise Google Translate pour quelques parties de cette démo.",
-    back_to_all_posts: "Retour à tous les articles",
+      "Documentation de l'implémentation de la conformité d'identité souveraine de niveau 3.",
+    back_to_all_posts: "Retour",
   },
 } as const;
 

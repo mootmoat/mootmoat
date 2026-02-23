@@ -7,16 +7,8 @@ import { type navItem } from "../types/configDataTypes";
 
 const navConfig: navItem[] = [
   {
-    text: "Introduction",
-    link: "/docs/getting-started/",
-  },
-  {
-    text: "Components",
-    link: "/docs/components/",
-  },
-  {
-    text: "Get Solstice",
-    link: "https://cosmicthemes.com/themes/solstice",
+    text: "MootMoat Repository",
+    link: "https://github.com/mootmoat",
     newTab: true,
   },
 ];
