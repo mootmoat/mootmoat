@@ -1,3 +1,7 @@
+---
+title: "NLM_promp-stack_v17"
+---
+
 # MOOT MOAT — PROMPTS.md
 ## The v17 NLM Prompt Stack
 ### Optimized for the GitHub DIYer

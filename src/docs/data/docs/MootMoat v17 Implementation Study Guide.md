@@ -1,3 +1,7 @@
+---
+title: "MootMoat v17 Implementation Study Guide"
+---
+
 ### MootMoat v17 Implementation Study Guide
 
 This document serves as a working reference and field guide for engineers implementing the MootMoat v17 open standard for agentic professional identity. It is designed to be utilized during the execution of the extraction and deployment pipeline.

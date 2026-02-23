@@ -1,3 +1,7 @@
+---
+title: "The Ontology Gap_ Why Experienced Hardware Engineers Are Invisible to AI Hiring Agents — and What to Do About It"
+---
+
 ### The Ontology Gap: Why Experienced Hardware Engineers Are Invisible to AI Hiring Agents — and What to Do About It
 
 ##### 1\. The Erasure of Expertise: Navigating Round Zero

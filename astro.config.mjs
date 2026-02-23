@@ -5,6 +5,9 @@ import compress from "@playform/compress";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 import AutoImport from "astro-auto-import";
+import cloudflare from "@astrojs/cloudflare";
+
+const isProduction = process.env.CF_PAGES === "1";
 import expressiveCode, { createInlineSvgUrl } from "astro-expressive-code";
 import icon from "astro-icon";
 
@@ -15,6 +18,10 @@ const copySvg = createInlineSvgUrl(
 
 // https://astro.build/config
 export default defineConfig({
+  output: isProduction ? "static" : "server",
+  adapter: cloudflare({
+    imageService: "compile",
+  }),
   site: "https://mootmoat.com",
   // i18n configuration must match src/docs/config/translationData.json.ts
   i18n: {
@@ -86,6 +93,19 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      fs: {
+        allow: [".", "D:/GitHub/mootmoat-assets/R2_STAGING"],
+      },
+      watch: {
+        ignored: ["**/public/assets/**", "**/public/assets", "**/R2_STAGING/**"],
+      },
+    },
+    resolve: {
+      alias: {
+        ...(isProduction ? { "react-dom/server": "react-dom/server.edge" } : {}),
+      },
+    },
     // stop inlining short scripts to fix issues with ClientRouter
     build: {
       assetsInlineLimit: 0,

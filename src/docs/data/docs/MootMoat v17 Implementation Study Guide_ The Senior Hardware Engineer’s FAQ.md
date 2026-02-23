@@ -1,3 +1,7 @@
+---
+title: "MootMoat v17 Implementation Study Guide_ The Senior Hardware Engineer’s FAQ"
+---
+
 ### MootMoat v17 Implementation Study Guide: The Senior Hardware Engineer’s FAQ
 
 #### Core Frequently Asked Questions

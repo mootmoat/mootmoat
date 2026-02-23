@@ -1,3 +1,7 @@
+---
+title: "MootMoat_v17_Spec"
+---
+
 MOOT MOAT  
 v17.0 — Project Specification & Open Standard  
 The Open Standard for Agentic Professional Identity

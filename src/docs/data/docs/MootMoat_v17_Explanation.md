@@ -1,3 +1,7 @@
+---
+title: "MootMoat_v17_Explanation"
+---
+
 MOOT MOAT  
 The Open Standard for Agentic Professional Identity  
 v17.0 · MIT License · mootmoat.com · github.com/mootmoat

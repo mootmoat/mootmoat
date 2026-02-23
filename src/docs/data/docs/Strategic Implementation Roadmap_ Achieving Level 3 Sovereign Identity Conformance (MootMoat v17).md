@@ -1,3 +1,7 @@
+---
+title: "Strategic Implementation Roadmap_ Achieving Level 3 Sovereign Identity Conformance (MootMoat v17)"
+---
+
 ### Strategic Implementation Roadmap: Achieving Level 3 Sovereign Identity Conformance (MootMoat v17)
 
 #### 1\. Executive Orientation: The Sovereignty Mandate

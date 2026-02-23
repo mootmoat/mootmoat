@@ -1,3 +1,7 @@
+---
+title: "MootMoat_v17_StrategicCase"
+---
+
 MOOT MOAT  
 The Strategic Case: Investment, Return, and the Sovereignty Equation  
 v17.0 · MIT License · mootmoat.com · github.com/mootmoat
