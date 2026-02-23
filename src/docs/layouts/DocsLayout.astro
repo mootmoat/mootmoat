@@ -1,7 +1,5 @@
 ---
 import type { CollectionEntry } from "astro:content";
-
-import SidebarCta from "@/docs/components/cta/SidebarCta.astro";
 import Footer from "@/docs/components/footer/Footer.astro";
 import DocsPagination from "@/docs/components/nav/DocsPagination.astro";
 import SidebarNav from "@/docs/components/nav/SidebarNav.astro";
@@ -101,8 +99,6 @@ const { prev, next } = await getAdjacentPages(doc.id, currLocale, tabId);
               class="max-h-[calc(100vh-var(--nav-height))] overflow-y-auto px-1 pt-(--main-content-pt) pb-4 xl:px-4"
             >
               <TableOfContents headings={filteredHeadings} minHeadingLevel={minHeadingLevel} />
-
-              <SidebarCta class="mt-10" />
             </div>
           </div>
         </aside>
